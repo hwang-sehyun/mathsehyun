@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Han+Sans&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=IM+Fell+English+SC&family=Ms+Madi&family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+      * {
+        box-sizing : border-box;
+      }
+      body {
+        background-color: black;
+      }
+      .about-font1 {
+        font-family: 'Press Start 2P', cursive;
+        color : red;
+        text-shadow : 1px 1px white;
+      }
+      .about-font2 {
+        font-family: 'Bangers', cursive;
+        color : white;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      }
+      .leftcolumn {
+        float : left;
+        width : 20%;
+        text-align : center;
+      }
+      .rightcolumn {
+        float : left;
+        width : 80%;
+        text-align : center;
+      }
+      .fakeimg1 {
+        background-color: #368BC1;
+        width: 90%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 0;
+        margin-bottom:2px;
+        border-radius: 10px;
+      }
+      .fakeimg2 {
+        background-color: #123456;
+        width: 90%;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 0;
+        margin-bottom:2px;
+        border-radius: 10px;
+      }
+      .fakeimg3 {
+        background-color: white;
+        width: 90%;
+        border-radius: 10px;
+      }
+      .select {
+        color: #FDD017;
+      }
+      .card1 {
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+        text-align: left;
+      }
+      .card2 {
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom:0;
+        text-align: left;
+      }
+      .row: afer {
+        content : "";
+        display : table;
+        clear : both;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width : 100%;
+          padding: 0%;
+        }
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="row">
+
+      <div class="leftcolumn about-font1">
+        <a href="index.html" style="text-decoration-line: none; color:red;"><h1 style="margin-top : 10%; font-size: 50px">HWANG<br>SEHYUN<br>-<p style="font-size:35px; margin-top:0;">MATH ACADEMY</p></h1></a>
+        <h3 style="color:white; text-shadow:none;"> CLASS NAME :<br><br> KIM RAE IN </h3>
+        <div class="card1">
+          <p style="font-size:20px;">
+            <a href="homework.html" style="text-decoration-line: none; color:red;">1.HOMEWORK<br><br><br></a>
+            <a href="plan.html" style="text-decoration-line: none; color:red">2.PLAN<br><br><br></a>
+            <a href="gallery.html" style="text-decoration-line:none; color:red;">3.GALLERY<br><br><br></a>
+            <a href="test result.html" style="text-decoration-line:none; color:red;">4.TEST RESULT<br><br><br></a>
+
+          </p>
+        </div>
+        <img src="4.PNG" class="center" style="margin-top:30px;">
+      </div>
+
+      <div class="rightcolumn" style="color:white;">
+        <div class="card2">
+          <p ONCLICK="showAndHide()" class="fakeimg1" style="font-size:30px; font-family: 'Bangers', cursive;">1 - 22.04.07 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:red;">click</span></p>
+          <DIV ID="lesson1" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;">개념 플러스 유형 5단원</DIV>
+          <p ONCLICK="ShowAndHide()"class="fakeimg2" style="font-size:30px; font-family: 'Bangers', cursive;">2 - 22.04.12 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:red;">click</span></p>
+          <DIV ID="lesson2" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;">개념 플러스 유형 5단원</DIV>
+          <p ONCLICK="SHowAndHide()"class="fakeimg1" style="font-size:30px; font-family: 'Bangers', cursive;">3 - 22.04.14 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:red;">click</span></p>
+          <DIV ID="lesson3" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;;">평균을 구하는 공식을 배우고 빈칸이 있는 평균 활용 문제를 공부함 / 평균 공식 자체는 어려워하지 않았으나 활용문제는 아주 어려워함. 수업 말미에 집중력이 급격하게 떨어지며 더욱 어려워한것일 수도 있음.</DIV>
+          <p ONCLICK="ShOwAndHide()"class="fakeimg2" style="font-size:30px; font-family: 'Bangers', cursive;">4 - 22.04.19 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:red;">click</span></p>
+          <DIV ID="lesson4" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;;">보충프린트(개념 플러스 연산 파워)를 통해 평균을 효율적으로 구하는 방법을 공부하고 빈출 활용 문제에 익숙해지도록함 <br>/ 아직 평균을 구하는 데에 꽤 오랜 시간이 걸리고 공식을 자유롭게 활용하지는 못함.<br>
+          다만 14일 수업때 어려워하던 유형을 이전과 달리 크게 거부하지 않음. 아마 평균이라는 개념에 이전보다 익숙해져서 포용의 범위가 넓어진 것 같음.</DIV>
+          <p ONCLICK="ShoWAndHide()"class="fakeimg1" style="font-size:30px; font-family: 'Bangers', cursive;">5 - 22.04.21 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:red;">click</span></p>
+          <DIV ID="lesson5" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;;">래인이가 앞의 평균 파트와는 달리 가능성 파트를 쉽게 이해함. 스스로 가능성 문제들이 쉽다고 얘기함</DIV>
+          <p ONCLICK="ShowandHide()"class="fakeimg2" style="font-size:30px; font-family: 'Bangers', cursive;">6 - 22.04.26 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:red;">click</span></p>
+          <DIV ID="lesson6" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;;">기적의 계산법 맨 뒤의 방정식 파트를 풀면서 래인이가 분수끼리의 나눗셈을 기억하지 못한다고 얘기함. 문제를 풀면서 나눗셈은 빈번하게 등장하는데 분수끼리의 나눗셈 혹은 소수끼리의 나눗셈을 기억하지 못하고
+          어려워 하는 모습은 지금까지 문제 풀이 과정에서 아직 초등학교 저학년의 방식으로 문제를 풀고 있었음을 방증함.<br> /사람마다 선호하는 계산방식이 다르지만 수학 난이도가 올라갈수록 초등저학년식의 나눗셈으로는 해결되지 않는 문제가 대다수이기에 수업시간 모르는 문제 풀이를 해줄 때 나눗셈을 곱셈으로 바꾸고
+        역수 취하는 방식을 자주 사용해야 할 것. </DIV>
+          <p ONCLICK="ShowANdHide()"class="fakeimg1" style="font-size:30px; font-family: 'Bangers', cursive;">7 - 22.04.28 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span style="color:red;">click</span></p>
+          <DIV ID="lesson7" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;;">복습책에서 다시한번 빈칸이 뚫려있는 평균 활용문제가 나오자 모두 별포를 쳤음. 내 바램으로는 한번 시도해보았으면 싶지만 조급하게 다그치기보다는 현재 래인이가 무엇을 모르고 또 어려워하는지 알게됨. /
+          래인이에게도 내가 뭘 모르는지 아는 것과 내가 뭘 모르는지 모르는 것은 아주 큰 차이가 있으며  스스로가 약한 부분은 인지하고 공부하는 과정에서 이를 더욱 연습해야 한다고 말함.</DIV>
+          <p ONCLICK="ShowAnDHide()"class="fakeimg2 select" style="font-size:30px; font-family: 'Bangers', cursive;">8 - 22.05.03*</p>
+          <DIV ID="lesson8" STYLE="display:none; font-family: 'Gowun Dodum', sans-serif;;">Text to be own and hidden</DIV>
+        </div>
+          <!--<span class="leftcolumn">
+            <p style="font-size:30px; margin-top:50px; color:white;"> 1<br><br><br> 2<br><br><br> 3<br><br><br> 4<br><br><br> 5<br><br><br> 6<br><br><br> 7<br><br><br> 8<br><br><br> </p>
+            <p>!alert!</p>
+          </span>-->
+      </div>
+    </div>
+    <SCRIPT>
+      function showAndHide() {
+          var x = document.getElementById('lesson1');
+          if (x.style.display == 'none') {
+              x.style.display = 'block';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+    </SCRIPT>
+    <SCRIPT>
+        function ShowAndHide() {
+            var x = document.getElementById('lesson2');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </SCRIPT>
+    <SCRIPT>
+          function SHowAndHide() {
+              var x = document.getElementById('lesson3');
+              if (x.style.display == 'none') {
+                  x.style.display = 'block';
+              } else {
+                  x.style.display = 'none';
+              }
+          }
+    </SCRIPT>
+    <SCRIPT>
+      function ShOwAndHide() {
+          var x = document.getElementById('lesson4');
+          if (x.style.display == 'none') {
+              x.style.display = 'block';
+          } else {
+              x.style.display = 'none';
+          }
+      }
+      </SCRIPT>
+      <SCRIPT>
+        function ShoWAndHide() {
+            var x = document.getElementById('lesson5');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+        </SCRIPT>
+        <SCRIPT>
+          function ShowandHide() {
+              var x = document.getElementById('lesson6');
+              if (x.style.display == 'none') {
+                  x.style.display = 'block';
+              } else {
+                  x.style.display = 'none';
+              }
+          }
+          </SCRIPT>
+          <SCRIPT>
+            function ShowANdHide() {
+                var x = document.getElementById('lesson7');
+                if (x.style.display == 'none') {
+                    x.style.display = 'block';
+                } else {
+                    x.style.display = 'none';
+                }
+            }
+            </SCRIPT>
+            <SCRIPT>
+              function ShowAnDHide() {
+                  var x = document.getElementById('lesson8');
+                  if (x.style.display == 'none') {
+                      x.style.display = 'block';
+                  } else {
+                      x.style.display = 'none';
+                  }
+              }
+              </SCRIPT>
+  </body>
+</html>
